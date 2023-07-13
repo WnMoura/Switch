@@ -1,0 +1,48 @@
+
+body{
+background-color: var(--bg-url);
+
+}
+
+
+
+
+:root{--bg-url:#292C35;
+    --switch-bg-url:8px 11.08px 7.69px 138px;
+}
+.light{--bg-url:#F1F1F1;
+     --switch-bg-url:8px 137.08px 7.69px 12px;    
+  }
+#switch {
+    width: 235.385px;
+    height: 102px;
+    border-radius: 59px;
+    background: #000;
+    margin: 300px auto;
+  }
+#Moon{
+    position: absolute;
+    width: 94.154px;
+    height: 94.154px;
+    padding: 4px 136.23px 3.85px 5px;
+}
+#Sun{
+    position: absolute;
+    width: 94.154px;
+    height: 94.154px;
+    padding:4px 7.23px 3.85px 134px ;}
+
+#Button{
+ padding: var(--switch-bg-url)  ;
+ animation: slide-in 0.4s forwards;
+ position: absolute ;
+ transition: 0.4s;
+ 
+
+
+
+  }
+
+
+
+  
